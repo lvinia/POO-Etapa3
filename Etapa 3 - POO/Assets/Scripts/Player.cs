@@ -21,5 +21,11 @@ public class Player : Personagem
         {
             gameObject.transform.position -= new Vector3(getVelocidade()* Time.deltaTime, 0, 0);
         }
+
+        if (getVida() <= 0)
+        {
+            gameObject.SetActive(false);
+            Debug.Log("Jogador Morreu");
+        }
     }
 }

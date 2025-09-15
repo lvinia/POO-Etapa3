@@ -138,10 +138,10 @@ TextureImporter:
       name: sPlayerIdle_strip4_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 4
-        width: 25
-        height: 32
+        x: 0
+        y: 0
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: sPlayerIdle_strip4_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 4
-        width: 27
-        height: 29
+        x: 40
+        y: 0
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: sPlayerIdle_strip4_2
       rect:
         serializedVersion: 2
-        x: 86
-        y: 4
-        width: 28
-        height: 29
+        x: 80
+        y: 0
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: sPlayerIdle_strip4_3
       rect:
         serializedVersion: 2
-        x: 126
-        y: 4
-        width: 27
-        height: 29
+        x: 120
+        y: 0
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f6e938fe89860d64690ebf12b958c786
     internalID: 0
     vertices: []
     indices: 
