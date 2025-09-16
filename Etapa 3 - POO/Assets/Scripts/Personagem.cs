@@ -38,4 +38,10 @@ public class Personagem : MonoBehaviour
     {
         return this.energia;
     }
+
+    public void recebeDano(int dano)
+    {
+        int novaVida = getVida() - dano;
+        setVida(novaVida);
+    }
 }

@@ -1,14 +1,12 @@
 using System;
 using UnityEngine;
 
-
-
 public class Bala : MonoBehaviour
 {
     [SerializeField]
     private int dano = 1;
     [SerializeField]
-    private float velocidade = 1.5f;
+    private float velocidade = 5f;
     
     private Renderer m_Renderer;
 
@@ -24,7 +22,7 @@ public class Bala : MonoBehaviour
 
     private void Start()
     {
-        
+        m_Renderer = GetComponent<Renderer>();
     }
 
     private void Update()
