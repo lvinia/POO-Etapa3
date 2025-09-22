@@ -3,8 +3,25 @@ using UnityEngine;
 
 public class Player : Personagem
 {
+    private SpriteRenderer spriteRenderer;
+    public Transform arma;
+
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
     private void Update()
     {
+        if (arma.rotation.eulerAngles.z > -90 && arma.rotation.eulerAngles.z < 90)
+        {
+           spriteRenderer.flipX = false;
+        }
+        if (arma.rotation.eulerAngles.z > 90 && arma.rotation.eulerAngles.z < 270)
+        {
+            spriteRenderer.flipX = true;
+        }
+        
+        
         if (Input.GetKey(KeyCode.W))
         {
             gameObject.transform.position += new Vector3(0, getVelocidade()* Time.deltaTime, 0);

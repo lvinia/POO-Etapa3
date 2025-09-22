@@ -166,6 +166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 6
-  vida: 10
+  vida: 5
   energia: 10
   dano: 1

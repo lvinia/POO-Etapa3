@@ -12,15 +12,29 @@ public class Arma : MonoBehaviour
     private Camera camera;
     public GameObject cursor;
     
+    private SpriteRenderer spriteRenderer;
+    
     
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        
         camera = Camera.main;
     }
 
     
     void Update()
     {
+        if (gameObject.transform.rotation.eulerAngles.z > -90 && gameObject.transform.rotation.eulerAngles.z < 90)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        if (gameObject.transform.rotation.eulerAngles.z > 90 && gameObject.transform.rotation.eulerAngles.z < 270)
+        {
+            transform.localScale = new Vector3(1, -1, 1);
+        }
+        
+        
         float camDis = camera.transform.position.y - transform.position.y;
         Vector3 mouse = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, camDis));
             
