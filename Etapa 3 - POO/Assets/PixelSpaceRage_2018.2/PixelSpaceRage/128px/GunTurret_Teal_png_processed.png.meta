@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GunTurret_Teal_png_processed_0: -85983041500253563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

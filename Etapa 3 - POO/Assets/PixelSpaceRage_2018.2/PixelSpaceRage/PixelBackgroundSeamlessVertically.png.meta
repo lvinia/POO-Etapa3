@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PixelBackgroundSeamlessVertically_0: 1373682039434051637
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

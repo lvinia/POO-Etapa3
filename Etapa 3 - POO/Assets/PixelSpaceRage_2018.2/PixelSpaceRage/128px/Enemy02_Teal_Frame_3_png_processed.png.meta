@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy02_Teal_Frame_3_png_processed_0: -8012759379902237218
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

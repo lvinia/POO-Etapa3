@@ -43,7 +43,15 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 3234ef3071cc0824b8419aee9dc64c16
+    name: FSX
+  - guid: 93083e0930b9cd34e94135ed626c4c4c
+    name: GUI
+  - guid: 7353b24c30ad00047b88661356489567
+    name: Master
+  - guid: a2e0e38bdad361143897ae1b70d15d94
+    name: Musica
   m_AudioMixerGroupViews:
   - guids:
     - 47e35cdd15cbec043b9c1f0d42a4d94d
@@ -100,7 +108,7 @@ AudioMixerSnapshotController:
   m_SnapshotID: 7d2016f772543d749bd1ebbb14eb6ac2
   m_FloatValues:
     3234ef3071cc0824b8419aee9dc64c16: -0.16685188
-    a2e0e38bdad361143897ae1b70d15d94: 14.112627
+    a2e0e38bdad361143897ae1b70d15d94: -0.0024419352
   m_TransitionOverrides: {}
 --- !u!243 &88254942705047164
 AudioMixerGroupController:

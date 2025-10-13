@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Proton_Large_png_processed_0: -5027358942214089750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

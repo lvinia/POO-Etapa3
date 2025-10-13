@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Minigun_Small_png_processed_0: -5345298736778819830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

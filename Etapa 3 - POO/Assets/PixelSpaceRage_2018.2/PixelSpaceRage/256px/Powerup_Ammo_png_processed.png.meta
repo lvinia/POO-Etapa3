@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Powerup_Ammo_png_processed_0: -8327576589185438713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Powerup_Energy_png_processed_0: 6876135311723268212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

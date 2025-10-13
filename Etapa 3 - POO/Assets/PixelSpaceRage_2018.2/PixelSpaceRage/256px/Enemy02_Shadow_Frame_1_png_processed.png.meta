@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy02_Shadow_Frame_1_png_processed_0: 8982726330755887865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

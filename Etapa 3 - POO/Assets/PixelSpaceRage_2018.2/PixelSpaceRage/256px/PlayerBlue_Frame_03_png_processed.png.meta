@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlayerBlue_Frame_03_png_processed_0: -435266508480717922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
